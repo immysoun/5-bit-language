@@ -1,5 +1,5 @@
 # 5-bit-language
-
+```
 (from left to right)
 first bit represents thumb
 the for bits are the other fingers
@@ -31,3 +31,4 @@ w =	1 0111
 x =	1 1000
 y =	1 1001
 z =	1 1010
+```
