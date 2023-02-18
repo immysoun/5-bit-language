@@ -19,6 +19,8 @@ example:
 0 0000 = all fingers are absent, value: null (a fist)
 1 1111 = all fingers are present, value: null (high five)
 
+the values given to the alphabet are binary for 1 through 26.
+
 alphabet (right hand):
 a =	0 0001
 b =	0 0010
@@ -50,4 +52,5 @@ z =	1 1010
 TO DO:
 - add left hand functionality
 - add values to null expressions
+- find ways to express non-alphabetic characters (numbers e.t.c) easily
 ```
