@@ -1,23 +1,23 @@
 # 5-bit-language (single hand)
 ```
-this language derives primarily from english, with an an alphabeet of 26 letters (characters).
+this language derives primarily from english, with an an alphabet of 26 letters (characters).
 words can be formed through a comb(o)-ination of letters in the english language.
 
 (from left to right)
 first bit represents thumb
 the next 4 bits are the other fingers
 
-0 means that the finger is absent
-1 means that the finger is present
+0 = finger is absent
+1 = finger is present
 
 any 5 bits that do not correspond to a value in the alphabet is represented as null.
 
 a present finger is one that is fully extended
 an absent finger is one that is fully retracted
 
-example:
-0 0000 = all fingers are absent, value: null (a fist)
-1 1111 = all fingers are present, value: null (high five)
+examples:
+0 0000 = all fingers are absent (a fist), value: null 
+1 1111 = all fingers are present (high five), value: null 
 
 the values given to the alphabet are binary for 1 through 26.
 
