@@ -1,8 +1,23 @@
-# 5-bit-language
+# 5-bit-language (single hand)
 ```
+this language derives primarily from english, with an an alphabeet of 26 letters (characters).
+words can be formed through a comb(o)-ination of letters in the english language.
+
 (from left to right)
 first bit represents thumb
-the for bits are the other fingers
+the next 4 bits are the other fingers
+
+0 means that the finger is absent
+1 means that the finger is present
+
+any 5 bits that do not correspond to a value in the alphabet is represented as null.
+
+a present finger is one that is fully extended
+an absent finger is one that is fully retracted
+
+example:
+0 0000 = all fingers are absent, value: null (a fist)
+1 1111 = all fingers are present, value: null (high five)
 
 alphabet (right hand):
 a =	0 0001
@@ -31,4 +46,8 @@ w =	1 0111
 x =	1 1000
 y =	1 1001
 z =	1 1010
+
+TO DO:
+- add left hand functionality
+- add values to null expressions
 ```
