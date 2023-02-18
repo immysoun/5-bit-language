@@ -49,8 +49,16 @@ x =	1 1000
 y =	1 1001
 z =	1 1010
 
+Reading/Writing:
+
+when writing, you must have your thumbs be on your right.
+this means that any hand can be used
+
+when writing multiple of the same character, you must have all fingers absent (0 0000) before signal a new letter
+
 TO DO:
 - add left hand functionality
 - add values to null expressions
 - find ways to express non-alphabetic characters (numbers e.t.c) easily
+- a way to write fast (phrases? - assigning words like letters)
 ```
